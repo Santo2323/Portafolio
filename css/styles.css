@@ -11441,3 +11441,27 @@ section.resume-section .resume-section-content {
   border: 1px solid #200; /* Puedes cambiar el color y el grosor del borde */
   padding: 5px; /* Opcional: Agregar un poco de espacio entre el borde y el SVG */
 }
+
+/* Estilos generales para el elemento <select> */
+.select-bar {
+  appearance: none;
+  background-color: #ffffff; /* Color de fondo */
+  border: 2px solid #2196F3; /* Color del borde */
+  border-radius: 20px; /* Radio de bordes */
+  padding: 10px 20px; /* Espaciado interno (ajusta según tus preferencias) */
+  font-size: 16px; /* Tamaño del texto */
+  color: #2196F3; /* Color del texto */
+  width: 200px; /* Ancho del elemento (ajusta según tus necesidades) */
+}
+
+/* Estilo para los elementos opcionales */
+.select-bar option {
+  background-color: #ffffff; /* Color de fondo */
+  color: #2196F3; /* Color del texto */
+}
+
+/* Estilo para cuando se enfoca el elemento <select> */
+.select-bar:focus {
+  outline: none; /* Elimina el borde de enfoque predeterminado */
+  box-shadow: 0 0 5px #2196F3; /* Sombra al enfocar */
+}
