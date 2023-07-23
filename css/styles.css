@@ -64,6 +64,8 @@
   --bs-body-bg: #fff;
 }
 
+
+
 *,
 *::before,
 *::after {
@@ -11432,4 +11434,10 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+.svg-container {
+  border-radius: 50%;
+  overflow: hidden; /* Para asegurarse de que el contenido del SVG esté dentro del círculo */
+  border: 1px solid #200; /* Puedes cambiar el color y el grosor del borde */
+  padding: 5px; /* Opcional: Agregar un poco de espacio entre el borde y el SVG */
 }
